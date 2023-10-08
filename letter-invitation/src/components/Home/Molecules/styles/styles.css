@@ -1,0 +1,80 @@
+.list__header {
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-top: 1px var(--color-light) solid;
+  border-right: 1px var(--color-light) solid;
+  border-left: 1px var(--color-light) solid;
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+}
+
+.list__footer {
+  display: flex;
+  font-size: 14px;
+  padding: 1.4rem 0.7rem;
+  background-color: white;
+  border-bottom: 1px var(--color-light) solid;
+  border-right: 1px var(--color-light) solid;
+  border-left: 1px var(--color-light) solid;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.list__boxes {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.list__box {
+  border-radius: 4px;
+  padding: 5px 10px;
+  display: flex;
+  gap: 0.4rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+.list__box:nth-child(1) {
+  background-color: rgb(207, 241, 207);
+  border: 1px solid rgb(63, 123, 63);
+}
+
+.list__box:nth-child(1) i {
+  font-size: 16px;
+  color: rgb(33, 90, 33);
+}
+
+.list__box:nth-child(2) {
+  background-color: rgb(246, 204, 204);
+  border: 1px solid rgb(120, 55, 55);
+}
+
+.list__box:nth-child(2) i {
+  font-size: 16px;
+  color: rgb(92, 27, 27);
+}
+
+.list__box p {
+  padding-left: 0.2rem;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.list__item {
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 14px;
+  align-items: center;
+}
+
+.list__export {
+  background-color: rgb(30, 159, 30);
+  border-radius: 4px;
+  display: flex;
+  cursor: pointer;
+  font-size: 22px;
+  padding: 8px 10px;
+  color: white;
+}

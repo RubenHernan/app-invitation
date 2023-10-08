@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
+
+/* --- RESET --- */
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url("./img/background.jpg");
+  margin: 0;
+  background-size: cover;
+  font-family: "Forum", cursive;
+  color: var(--color-text);
+}
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+input {
+  border: var(--color-pink) solid 1px;
+  outline: none;
+}
+button {
+  font-family: inherit;
+  border: none;
+}

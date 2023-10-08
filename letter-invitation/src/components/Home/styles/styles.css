@@ -1,0 +1,41 @@
+.home__container {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  width: 100%;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+.home__box {
+  background-color: var(--color-body);
+  flex-grow: 1;
+  padding: 2rem;
+  width: 100%;
+  max-width: 1200px;
+}
+.home__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--color-pink-dark);
+  margin: 1rem 0;
+  padding: 13px 0;
+  border-bottom: 1px var(--color-pink) solid;
+}
+
+.home__title h1 {
+  letter-spacing: 5px;
+  font-size: 24px;
+}
+
+.home__title i {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.home__logout {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}

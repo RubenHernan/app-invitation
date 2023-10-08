@@ -1,0 +1,9 @@
+:root {
+  --color-body: #f9f1f8;
+  --color-text: #666;
+  --color-light: #dbdbdb;
+  --color-pink: #c88397;
+  --color-pink-dark: rgb(187, 65, 100);
+  --color-error: #be2c55;
+  --font-size-title: 20px;
+}
